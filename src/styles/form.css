@@ -1,0 +1,11 @@
+.modal { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.7); }
+.modal-content { background-image: linear-gradient(to right, #f5f2f2 , #95953e); margin: 17% auto; padding: 32px; width: 16%; height: 45%; box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
+.close { position: relative; bottom: 30px; float: right; font-size: 40px; cursor: pointer; font-weight: 600; }
+.form { font-size: 20px; font-weight: 500; padding: 10px; }
+.login { text-align: center; font-size: 36px; }
+.view_detail { border: none; background: #00ca95; text-transform: uppercase; padding: 8px; color: #fff; text-decoration: none; font-size: 20px; font-weight: 600; float: right; }
+input[type="text"] { width: 242px; cursor: pointer; font-size: 15px; background: #d4dbd9; color: #060606; padding: 6px; margin: 2px 6px; }
+@media(max-width: 480px) {
+  .modal-content { width: 67%; height: 50%; }
+  input[type="text"] { width: 212px; }
+}

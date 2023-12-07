@@ -1,0 +1,16 @@
+.container { align-items: center; display: flex; margin-top: 16px; gap: 16px; justify-content: space-between; }
+.left_container { justify-content: space-between; align-items: center; display: flex; }
+.right_container { display: flex; gap: 1rem; position: relative; vertical-align: middle; justify-content: center; gap: 0.5rem; }
+.self-center { display: block; vertical-align: middle; margin-left: 0.5rem; margin-right: 8px; height: 24px; width: 24px; }
+.p-2 { display: flex; justify-content: space-between; align-items: center; padding: 6px; margin-left: 16px; border-radius: 6px; border: 2.5px solid #000; font-size: 20px; background: transparent; }
+.capitalize { text-transform: capitalize; font-size: 18px; }
+.flex { display: none; }
+.hidden { display: block; }
+.ponter-events { display: flex; padding-right: 20px; }
+.list { font-size: 16px; font-weight: 300; margin-top: 20px; }
+@media(max-width: 480px) {
+  .container { margin: 10px; }
+  .flex { display: block; }
+  .hidden { display: none; }
+  .list { margin: 20px 10px; font-size: 20px; }
+}
